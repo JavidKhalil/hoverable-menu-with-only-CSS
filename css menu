@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+<title>simple menu</title>
+<style>
+
+.menu1 {
+float: left;  
+background-color: #061238;
+margin: auto;
+padding: auto; 
+height: auto;
+width: auto;
+}
+
+.menu2 {
+float: left;  
+background-color: #112770;
+margin: auto;
+padding: auto; 
+height: auto;
+width: auto;
+}
+
+.menu3 {
+float: left;  
+background-color: #4842f4;
+margin: auto;
+padding: auto; 
+height: auto;
+width: auto;
+}
+
+.menu22, .menu222, .menu33, .menu333, .menu11, .menu111 { display: none; }
+
+.menu1:hover .menu11 { display: block; } 
+
+.menu11:hover .menu111 { display: block; }
+
+.menu2:hover .menu22 { display: block; } 
+
+.menu22:hover .menu222 { display: block; }
+
+.menu3:hover .menu33 { display: block; } 
+
+.menu33:hover .menu333 { display: block; }
+
+</style>
+</head>
+
+<body>
+<h1>Hoverable menu with only CSS</h1>
+
+<br/>
+<br/>
+<div id="menu">
+	<div class="menu1">
+	Menu-1
+	     <div class="menu11">
+	     Menu-11
+	     	<div class="menu111">
+	        Menu-111
+	        </div>
+	     </div>
+	</div>
+	<div class="menu2">
+	Menu-2
+	     <div class="menu22">
+	     Menu-22
+	     	<div class="menu222">
+	        Menu-222
+	        </div>
+	     </div>
+	</div>
+	<div class="menu3">
+	Menu-3
+	     <div class="menu33">
+	     Menu-33
+	     	<div class="menu333">
+	        Menu-333
+	        </div>
+	     </div>
+	</div>
+</div>
+
+</body>
+</html>
